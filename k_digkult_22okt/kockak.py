@@ -1,19 +1,12 @@
 import random
 
-# 1. feladat
-beolvasas_ok = False
-while not beolvasas_ok:
-    try:
-        dobasok_szama = int(input("Hány alkalommal legyen feldobás? "))
-        if dobasok_szama < 1:
-            raise ValueError
-        beolvasas_ok = True
-    except ValueError:
-        print("Kérem, hogy pozitív egész számot adjon meg!")
-
-# 2. feladat
 random.seed()
 
+# 1. feladat
+dobasok_szama = int(input("Hány alkalommal legyen feldobás? "))
+# dobasok_szama = 5
+
+# 2. feladat
 dobasok = []
 for _ in range(dobasok_szama):
     dobas = [random.randint(1, 6) for _ in range(3)]

@@ -1,5 +1,6 @@
 # 1. feladat
 parancs = input("Kérem a robot parancsait: ")
+# parancs = "EEEKDKEKDKEKDDNN"
 
 # 2. feladat
 betuk = {'E': 0, 'D': 0, 'K': 0, 'N': 0}

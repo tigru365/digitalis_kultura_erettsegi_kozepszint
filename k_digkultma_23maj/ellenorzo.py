@@ -1,5 +1,6 @@
 # 1. feladat
 taj_szam = input("Kérem a TAJ-számot: ")
+# taj_szam = "012345672"
 
 # 2. feladat
 ellenorzo_szam = int(taj_szam[-1])

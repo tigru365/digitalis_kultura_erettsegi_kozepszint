@@ -1,12 +1,13 @@
 import random
 
+random.seed()
+
 # 1. feladat
 szavak = ("fuvola", "csirke", "adatok", "asztal", "fogoly",
           "bicska", "farkas", "almafa", "babona", "gerinc",
           "dervis", "bagoly", "ecetes", "angyal", "boglya")
 
 # 2. feladat
-random.seed()
 rejtett_szo = random.choice(szavak)
 
 # 3. feladat

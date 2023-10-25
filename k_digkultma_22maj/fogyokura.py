@@ -1,6 +1,8 @@
 # 1. feladat
 hetek_szama = int(input("Hetek száma="))
 kivant_testtomeg = float(input("Elérni kívánt testtömeg (kg)="))
+# hetek_szama = 6
+# kivant_testtomeg = 93.5
 
 # 2. feladat
 heti_tomeg = []
