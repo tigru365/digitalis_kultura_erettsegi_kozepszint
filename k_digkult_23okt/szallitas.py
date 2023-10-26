@@ -32,5 +32,5 @@ for tomeg in tomegek:
         doboz_tomeg += tomeg
 dobozok.append(doboz_tomeg)
 
-print(f"A dobozok tartalmának tömege (kg): {' '.join(map(str, dobozok))}")
+print(f"A dobozok tartalmának tömege (kg):", *dobozok)
 print(f"A szükséges dobozok száma: {len(dobozok)}")
